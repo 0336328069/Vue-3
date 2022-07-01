@@ -1,0 +1,37 @@
+.header{
+    width: 100%;
+    font-size: 32px;
+    line-height: 40px;
+    color : #FFFFFF;
+    text-align: center;
+    background-color: #293B49;
+    h2{
+        margin-top: 0px;
+    }
+
+    .navigation{
+        display: flex;
+        column-gap: 20px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        color: #208DEC;
+        
+        li {
+            
+            a {
+                text-decoration: none;
+                color: #208DEC;
+                font-size: 24px;
+                line-height: 30px;
+
+                &:active{
+                    color: #ccc;
+                }
+            }
+        }
+    }
+}
